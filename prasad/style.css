@@ -10,7 +10,7 @@ body{
 
 .BGvideo{
 	width: 100%;
-	height: 100%;
+	height: 200%;
 	background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(176, 6, 255, 0.3));
 	position: absolute;
 	padding: 0 5%;
@@ -20,7 +20,7 @@ body{
 }
 
 .back-video{
-	position: absolute;
+	position: fixed;
 	right: 0;
 	bottom: 0;
 	z-index: -1;
@@ -129,17 +129,15 @@ ul li a:hover{
 	padding: 14px 120px;
 	border-radius: 50px;
 	margin-left: 20px;
+	
+
 }
 
 .content a:hover{
-	text-decoration: none;
-	display: inline-block;
-	color: #ffffff;
-	font-size: 30px;
-	border: 2px solid #7617ce;
-	padding: 14px 120px;
-	border-radius: 200px;
-	margin-left: 20px;
+	font-size: 26px;
+	background-image: linear-gradient(rgba(17, 27, 116, 0.801),rgba(255, 255, 255, 0.3));
+
+
 }
 
 .animepara{
@@ -201,4 +199,5 @@ p{
 	float:right;
 	/* padding-left: 15px; */
 }
+
 
