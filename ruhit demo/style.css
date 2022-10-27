@@ -1,0 +1,193 @@
+/* Body Styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+/* .a1 {
+    width: 100%;
+    height: 100vh;
+    padding: 0 5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}    */
+
+/* Header Styline */
+nav{
+    width: 100%;
+    position: absolute;
+    padding: 15px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    width: 80px;
+} 
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+
+nav ul li a:hover{
+    color: rgb(120, 120, 120);
+}
+
+
+.bgvideo{
+    position:fixed;
+    z-index: -1;
+}
+
+/* Body Styling */
+.content{
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.content h1{
+    font-size: 80px;
+    color: white;
+    font-weight: 600;
+}
+.content h1:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px white ;
+}
+
+.content p{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.content1 h1{
+    font-size: 80px;
+    color: aliceblue;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+
+}
+
+.content1 h1:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px #fff ;
+}
+
+.fill1{
+    background-color: rgba(255, 255, 255, 0.062);
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: medium;
+    padding: 20px;
+    display:inline-block;
+    width: 100%;
+
+}
+
+.fill1 #pic{
+    width: 50%;
+    border-radius: 2px;
+    float: left;
+}
+
+.fill1 #desc1{
+    width: 50%;
+    float:right;
+    padding-left: 10px;
+}
+
+
+.fill1 #desc2{
+    width: 50%;
+    float: left;
+}
+
+.fill1 #pic2{
+    width: 50%;
+    border-radius: 2px;
+    float: right;
+    padding-left: 10px;
+
+}
+
+/* Footer styling */
+footer{
+    align-items: flex-end;
+    bottom: 0;
+    padding:20px 20px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.062),rgb(0, 0, 0)) ;
+}
+
+.media{
+    color: #fff;
+    text-align: center;
+}
+
+.media #links{
+    background-color: rgba(255, 255, 255, 0.591);
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-left: 3px;
+    border-radius: 10px;
+}
+.media #image{
+    width: 30px;
+}
+
+.c1 {
+    color: rgb(255, 255, 255);
+    padding:20px 20px;
+    text-align: center;
+}
+
+.contact {
+    color: #fff;
+    text-align: center;
+}
+
+
+/* chithappa alteration */
+
+/* .fill1{
+    display: flex;
+    width: 100%;
+
+} */
+
+
+/* .column{
+    width: 50%;
+    display: flex;
+    height: auto;
+
+} */
+
+/* #desc1{
+    margin-left: 30%;
+} */
+
+
+/* #pic{
+    margin: auto;
+    width: 500px;
+    height: 200px;
+} */
