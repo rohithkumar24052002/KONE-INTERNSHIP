@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number validation</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+
+        function validation()
+        {
+            var text = document.getElementById("text1").value;
+            var regx = /^[7-9][0-9]{9}$/;
+            if(regx.test(text))
+            {
+                document.getElementById("lbltext").innerHTML="valid";
+                document.getElementById("lbltext").style.visibility="visible";
+                document.getElementById("lbltext").style.color="green";
+            }
+            else
+            {
+                document.getElementById("lbltext").innerHTML="Invalid";
+                document.getElementById("lbltext").style.visibility="visible";
+                document.getElementById("lbltext").style.color="red";
+            }
+        }
+    </script>
+
+    <form>
+        <input id="text1" placeholder="Cellphone" type="text"><br>
+        <label id="lbltext" style="color: red; visibility: hidden;">Invalid</label><br>
+        <button onclick="validation()" type="button">submit</button>
+    </form> 
+</body>
+</html>
